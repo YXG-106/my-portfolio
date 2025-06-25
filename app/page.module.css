@@ -1,0 +1,159 @@
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  padding: 1rem 0;
+  z-index: 1000;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 2rem;
+  background-image: url('/images/image copy.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.text {
+  flex: 1;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-text-main);
+}
+
+.role {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: var(--color-text-sub);
+}
+
+.description {
+  color: var(--color-text-sub);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  max-width: 400px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-button-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+  text-decoration: none; 
+}
+
+.buttonOutline {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--color-button-primary);
+  color: var(--color-button-primary);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  
+}
+
+.buttonOutline:hover {
+  background-color: var(--color-button-primary);
+  color: white;
+  text-decoration: none; 
+}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 80px 15px 40px;
+  }
+
+  .heroContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  .role {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    margin: 0.5rem auto;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .button,
+  .buttonOutline {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,52 @@
+.section {
+  padding: 3rem 1rem;
+  border-top: 1px solid #2a2a2a;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.projectGrid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectCard {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  color: #ccc;
+  text-align: center;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.projectCard h3 {
+  margin-bottom: 1rem;
+  color: #cccccc;
+}
+
+.projectCard p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #eee;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #444;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #444;
+  text-decoration: none; 
+}

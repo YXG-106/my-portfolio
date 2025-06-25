@@ -1,0 +1,26 @@
+.section {
+  padding: 3rem 1rem;
+  border-top: 1px solid #2a2a2a;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skillsList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ccc;
+}
+
+.skillsList li {
+  background-color: #222;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

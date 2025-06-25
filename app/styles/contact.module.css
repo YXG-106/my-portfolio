@@ -1,0 +1,67 @@
+.section {
+  padding: 3rem 1rem;
+  border-top: 1px solid #2a2a2a;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contactInfo {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 16px;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #888;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #555;
+  outline: none;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.checkboxLabel input {
+  margin-right: 10px;
+}
+
+.contactForm button {
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #444;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #444;
+}
