@@ -8,7 +8,7 @@ export default function Work() {
           <h3>Restaurant Website</h3>
           <p>ウェブプログラミングコースの1年生の時に、HTMLとCSSを使用して作成したシンプルなレストランのウェブサイトです。</p>
           <a
-            href="https://github.com/YXG-106/restaurant-1"
+            href="https://restaurant-1-eight.vercel.app/"
             className={styles.button}
             target="_blank"
             rel="noopener noreferrer"

@@ -25,7 +25,7 @@ export default function Home() {
     <div className={styles.text}>
       <h1 className={styles.name}>MEGAMIND</h1>
       <p className={styles.role}>
-        Currently learning web development and building up my skills step by step.</p>
+      現在、Web開発を学んでおり、一歩一歩スキルを身につけているところです。</p>
       <div className={styles.buttons}>
         <Link href="#work" className={styles.button}>
           View My Work
