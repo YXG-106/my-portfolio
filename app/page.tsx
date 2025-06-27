@@ -1,4 +1,4 @@
-"use client";
+
 
 import Link from "next/link";
 import styles from "./page.module.css";
@@ -23,7 +23,7 @@ export default function Home() {
       <section className={styles.hero}>
   <div className={styles.heroContent}>
     <div className={styles.text}>
-      <h1 className={styles.name}>MEGAMIND</h1>
+      <h2 className={styles.name}>こんにちは。これは、Web開発を学びながら作った僕のポートフォリオです。</h2>
       <p className={styles.role}>
       現在、Web開発を学んでおり、一歩一歩スキルを身につけているところです。</p>
       <div className={styles.buttons}>
